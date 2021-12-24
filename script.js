@@ -15,3 +15,4 @@ function compareGuesses(human, computer, target) {
 
 const updateScore = winner => winner === 'human' ? humanScore++ : computerScore++
 
+const advanceRound = () => currentRoundNumber++
