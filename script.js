@@ -12,3 +12,6 @@ function compareGuesses(human, computer, target) {
         return false;
     }
 }
+
+const updateScore = winner => winner === 'human' ? humanScore++ : computerScore++
+
